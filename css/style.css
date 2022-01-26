@@ -1,0 +1,105 @@
+html {
+        /* Setting a base font size of 10px give us easier rem calculations 
+        Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth */
+        font-size: 10px;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;700&display=swap');
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(180, 138, 138);
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight:bold;
+}
+  
+@media (max-width: 460px) {
+    h1 {
+      font-size: 4rem;
+      line-height: 1.5;
+    }
+}
+h2 {
+    font-size: 3.25rem;
+}
+  
+a {
+    color: #b1bcc4;
+}
+  
+a:visited {
+    color: #735d99;
+}
+  
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgb(39, 35, 35);
+}
+  
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+}
+  
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+  
+#img-div {
+    background: rgb(224, 211, 211);
+    padding: 10px;
+    margin: 0;
+}
+  
+#img-caption {
+    margin: 15px 0 5px 0;
+    color: rgb(15, 15, 15);
+    
+}
+  
+@media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+}
+  
+#headline {
+    margin: 50px 0;
+    font-size: 2rem;
+    text-align: center;
+}
+  
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+  
+li {
+    margin: 10px 0;
+}
+  
+blockquote {
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+footer {
+color: rgb(2, 23, 48);
+}
+  
